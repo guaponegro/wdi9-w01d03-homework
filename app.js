@@ -108,25 +108,25 @@ console.log("JS is active");
 //   ];
 
 //   // Thom's closet is more complicated. Check out this nested data structure!!
-const thomsCloset = [
-    [
-      // These are Thom's shirts
-      "grey button-up",
-      "dark grey button-up",
-      "light blue button-up",
-      "blue button-up",
-    ],[
-      // These are Thom's pants
-      "grey jeans",
-      "jeans",
-      "PJs"
-    ],[
-      // Thom's accessories
-      "wool mittens",
-      "wool scarf",
-      "raybans"
-    ]
-  ];
+// const thomsCloset = [
+//     [
+//       // These are Thom's shirts
+//       "grey button-up",
+//       "dark grey button-up",
+//       "light blue button-up",
+//       "blue button-up",
+//     ],[
+//       // These are Thom's pants
+//       "grey jeans",
+//       "jeans",
+//       "PJs"
+//     ],[
+//       // Thom's accessories
+//       "wool mittens",
+//       "wool scarf",
+//       "raybans"
+//     ]
+//   ];
 
 //   let kristynsShoe = kristynsCloset[0];
 //   kristynsCloset.shift();
@@ -149,22 +149,25 @@ const thomsCloset = [
 //     console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
 // }
 // // Inventory
-let thomsShirts = thomsCloset[0];
-let thomsPants = thomsCloset[1];
-let thomsAccesories = thomsCloset[2];
+// let thomsShirts = thomsCloset[0];
+// let thomsPants = thomsCloset[1];
+// let thomsAccesories = thomsCloset[2];
 
-for(let i = 0; i < 1; i++){
-    console.log(thomsShirts);
-    console.log(thomsPants);
-    console.log(thomsAccesories);
-}
+// for(let i = 0; i < 1; i++){
+//     console.log(thomsShirts);
+//     console.log(thomsPants);
+//     console.log(thomsAccesories);
+// }
 
 // Multiples of 3 and 5
 
-// for(let i = 0; i < 1000; i++){
-//     if(i % 3 === 0)
-// }
-
+let sum = 0;
+for(let i = 0; i < 1000; i++){
+    if(i % 3 === 0 || i % 5 === 0){
+        sum += i;
+    }
+}
+console.log(sum);
 
 
 
