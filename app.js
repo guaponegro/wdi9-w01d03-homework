@@ -78,22 +78,72 @@ console.log("JS is active");
 
 // Yell at the Ninja Turtles
 
-let ninjaTurtles = ["Donatello", "Leonardo", "Michaelangelo", "Raphael"];
+// let ninjaTurtles = ["Donatello", "Leonardo", "Michaelangelo", "Raphael"];
 
-// for(i = 0; i < ninjaTurtles.length; i++){
-//     console.log(ninjaTurtles[i].toUpperCase());
+// // for(i = 0; i < ninjaTurtles.length; i++){
+// //     console.log(ninjaTurtles[i].toUpperCase());
+// // }
+// let manyNinjaTurtles = function(n) {
+//     let toggle = n.toLowerCase().split("");
+//     for(let i = 0; i < toggle.length; i +=2){
+//         toggle[i] = toggle[i].toUpperCase();
+//     }
+//     return toggle.join("");
+// };
+
+// for(let i = 0; i < ninjaTurtles.length; i++){
+//     console.log(manyNinjaTurtles(ninjaTurtles[i]));
 // }
-let manyNinjaTurtles = function(n) {
-    let toggle = n.toLowerCase().split("");
-    for(let i = 0; i < toggle.length; i +=2){
-        toggle[i] = toggle[i].toUpperCase();
-    }
-    return toggle.join("");
-};
 
-for(let i = 0; i < ninjaTurtles.length; i++){
-    console.log(manyNinjaTurtles(ninjaTurtles[i]));
-}
+// Return of the Closets (Alien Attire)
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+
+  // Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+  let kristynsShoe = kristynsCloset[0];
+  kristynsCloset.shift();
+  thomsCloset[2].push(kristynsShoe);
+  console.log(thomsCloset);
+  console.log(kristynsCloset);
+
+// Return of the Closets (Dress 'em Up)
+const outfitOne = [kristynsCloset[1], thomsCloset[0][0], kristynsCloset[3]];
+console.log(outfitOne);
+
+const outfitTwo = [thomsCloset[0][1], thomsCloset[1][0], kristynsCloset[2]];
+console.log(outfitTwo);
+
+const outfitThree = [thomsCloset[2][0], kristynsCloset[4], kristynsCloset[5]];
+console.log(outfitThree);
+
 
 
 
