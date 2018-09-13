@@ -144,6 +144,21 @@ console.log(outfitTwo);
 const outfitThree = [thomsCloset[2][0], kristynsCloset[4], kristynsCloset[5]];
 console.log(outfitThree);
 
+// Dirty Laundry
+for(let i = 0; i < kristynsCloset.length; i++){
+    console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
+}
+// Inventory
+let thomsShirts = thomsCloset[0];
+let thomsPants = thomsCloset[1];
+let thomsAccesories = thomsCloset[2];
+
+for(let i = 0; i < thomsCloset.length; i++){
+    console.log(thomsShirts);
+    console.log(thomsPants);
+    console.log(thomsAccesories);
+}
+
 
 
 
