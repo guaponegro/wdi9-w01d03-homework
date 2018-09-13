@@ -97,17 +97,17 @@ console.log("JS is active");
 
 // Return of the Closets (Alien Attire)
 
-const kristynsCloset = [
-    "left shoe",
-    "cowboy boots",
-    "right sock",
-    "GA hoodie",
-    "green pants",
-    "yellow knit hat",
-    "marshmallow peeps"
-  ];
+// const kristynsCloset = [
+//     "left shoe",
+//     "cowboy boots",
+//     "right sock",
+//     "GA hoodie",
+//     "green pants",
+//     "yellow knit hat",
+//     "marshmallow peeps"
+//   ];
 
-  // Thom's closet is more complicated. Check out this nested data structure!!
+//   // Thom's closet is more complicated. Check out this nested data structure!!
 const thomsCloset = [
     [
       // These are Thom's shirts
@@ -128,37 +128,42 @@ const thomsCloset = [
     ]
   ];
 
-  let kristynsShoe = kristynsCloset[0];
-  kristynsCloset.shift();
-  thomsCloset[2].push(kristynsShoe);
-  console.log(thomsCloset);
-  console.log(kristynsCloset);
+//   let kristynsShoe = kristynsCloset[0];
+//   kristynsCloset.shift();
+//   thomsCloset[2].push(kristynsShoe);
+//   console.log(thomsCloset);
+//   console.log(kristynsCloset);
 
-// Return of the Closets (Dress 'em Up)
-const outfitOne = [kristynsCloset[1], thomsCloset[0][0], kristynsCloset[3]];
-console.log(outfitOne);
+// // Return of the Closets (Dress 'em Up)
+// const outfitOne = [kristynsCloset[1], thomsCloset[0][0], kristynsCloset[3]];
+// console.log(outfitOne);
 
-const outfitTwo = [thomsCloset[0][1], thomsCloset[1][0], kristynsCloset[2]];
-console.log(outfitTwo);
+// const outfitTwo = [thomsCloset[0][1], thomsCloset[1][0], kristynsCloset[2]];
+// console.log(outfitTwo);
 
-const outfitThree = [thomsCloset[2][0], kristynsCloset[4], kristynsCloset[5]];
-console.log(outfitThree);
+// const outfitThree = [thomsCloset[2][0], kristynsCloset[4], kristynsCloset[5]];
+// console.log(outfitThree);
 
-// Dirty Laundry
-for(let i = 0; i < kristynsCloset.length; i++){
-    console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
-}
-// Inventory
+// // Dirty Laundry
+// for(let i = 0; i < kristynsCloset.length; i++){
+//     console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
+// }
+// // Inventory
 let thomsShirts = thomsCloset[0];
 let thomsPants = thomsCloset[1];
 let thomsAccesories = thomsCloset[2];
 
-for(let i = 0; i < thomsCloset.length; i++){
+for(let i = 0; i < 1; i++){
     console.log(thomsShirts);
     console.log(thomsPants);
     console.log(thomsAccesories);
 }
 
+// Multiples of 3 and 5
+
+// for(let i = 0; i < 1000; i++){
+//     if(i % 3 === 0)
+// }
 
 
 
